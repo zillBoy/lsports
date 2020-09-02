@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: #141517;
+}
+
+a {
+    font-weight: 300;
+}
+
+/* Navigation */
+
+.navigation-bar {
+    background: rgba(0, 0, 0);
+}
+
+.nav-item-content {
+    padding: 0 20px;
+}
+
+/* Hero Image */
+
+
+.main-heading-div {
+    display: flex;
+    align-items: center;
+}
+
+.main-heading {
+    position: absolute;
+    text-align: center;
+    margin-top: 40%;
+    width: 100%;
+    font-weight: 800;
+    font-size: 12vw;
+    text-shadow: 1px 1px 12px rgba(0, 0, 0, 1);
+    letter-spacing: 30px;
+    user-select: none;
+    z-index: 1;
+}
+
+.overlay-hero-img {
+    background-color: rgba(0, 0, 0, 0.986);
+}
+
+.hero-img {
+    opacity: 0.7;
+}
+
+.social-media {
+    position: absolute;
+    right: 5%;
+    top: 19vw;
+    z-index: 1;
+}
+
+.social-media-inner {
+    display: flex;
+    flex-flow: column;
+    padding-top: 10px;
+}
+
+.social-media-icons {
+    margin: 15px 0px;
+}
+
+.vl-1 {
+    position: absolute;
+    border: 1px solid #fff;
+    height: 8vw;
+    top: -10vw;
+    left: 10px;
+}
+
+.vl-2 {
+    position: absolute;
+    border: 1px solid #fff;
+    height: 8vw;
+    top: 95%;
+    left: 10px;   
+}
+
+/* Section - ABOUT US / CONTACT US */
+
+.grid-container-div {
+    background-color: #1C1D21;
+    padding-bottom: 80px;
+}
+
+.section-div {
+    padding: 20px 0px;
+}
+
+.section-heading {
+    font-weight: 800;
+    font-size: 2vw;
+    text-align: center;
+    text-justify: center;
+    padding-bottom: 20px;
+}
+
+.col-item {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.about-img {
+    width: 65%;
+}
+
+/* About Section */
+
+.about-grid-container {
+    display: grid;
+    /* align-content: center; */
+}
+
+.item-1 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 6;
+}
+
+.item-2 {
+    grid-column: 3 / 5;
+    grid-row: 4 / 8;
+}
+
+/* Seperate Section With HR */
+
+.seperate-secion-hr {
+    border: 1.2px solid #fff;
+    margin-bottom: 20px;
+}
+
+/* SERVICES */
+
+.service-grid-container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+}
+
+.service-desc {
+    border: 1px solid #fff;
+    grid-column: 1 / 7;
+    grid-row: 3 / 8; 
+}
+
+.service-desc-inner-div {
+    padding: 15px;
+}
+
+.service-desc-text {
+    width: 80%;
+}
+
+.extra-space {
+    padding-bottom: 10px;
+}
+
+.service-img-a {
+    width: 100%;
+}
+
+.service-img-b {
+    width: 60%;
+}
+
+.service-img1 {
+    grid-column: 6 / 16;
+    grid-row: 1 / 16;
+}
+
+.service-img2 {
+    grid-column: 3 / 10;
+    grid-row: 11 / 6;
+}
+
+/* CONTACTS */
+
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+}
+
+.contact-white-box {
+    border: 1px solid #fff;
+    grid-column: 2 / 6;
+    grid-row: 2 / 11;
+}
+
+.contact-info {
+    background-color: #141517;
+    grid-column: 4 / 11;
+    grid-row: 3 / 10;
+    padding: 20px;
+}
+
+.contact-text {
+    transform: rotate(-90deg);
+    grid-column: 2 / 4;
+    grid-row: 12 / 9;
+}
+
+.contact-text-heading {
+    font-size: 5.7vw;
+    font-weight: 800;
+    letter-spacing: 24px;
+    color: #322F3A;
+}
+
+.my-btn {
+    color: #fff;
+    background-color: #47444F;
+}
+
+.my-btn:hover {
+    color: #fff;
+}
+
+.contact-info-input {
+    color: #fff;
+    background-color: #47444F;
+    border: none;
+    margin-top: 10px;
+}
+
+.contact-info-input:focus {
+    color: #fff;
+}
+
+.contact-info-input-area {
+    color: #fff;
+    background-color: #47444F;
+    border: none;
+    margin: 20px 0px;
+}
+
+/* Footer */
+
+.footer-container {
+    background-color: #322F3A;
+    padding: 20px;
+}
+
+.footer-seperate-secion-hr {
+    border: 1px solid #fff;
+    margin-bottom: 20px;
+}
+
+.footer-icons {
+    margin: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.footer-contact-para {
+    margin-top: 17px;
+    margin-left: 8px;
+}
+
+.footer-contact-info-flex {
+    margin-bottom: -25px;
+}
+
+.footer-copyright {
+    margin-bottom: -25px;
+}
+
+.grid-item {
+    padding: 20px;
+}
